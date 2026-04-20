@@ -2,10 +2,8 @@
 
 [ext_resource type="Script" uid="uid://bicf5njnge4ui" path="res://ScriptPropertyPrinter/ScriptPropertyPrinter.gd" id="1_84qsi"]
 
-[node name="ScriptPropertyPrinter" type="Node" unique_id=1244397248 node_paths=PackedStringArray("node_to_print_for")]
+[node name="ScriptPropertyPrinter" type="Node" unique_id=1244397248]
 script = ExtResource("1_84qsi")
-properties_to_print = Array[StringName]([&"wait_time"])
-node_to_print_for = NodePath("Timer")
 
 [node name="Timer" type="Timer" parent="." unique_id=232835466]
 autostart = true
